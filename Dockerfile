@@ -4,7 +4,7 @@ LABEL maintiner="m.bagwala@outlook.com"
 COPY ./default.conf.tpl /etc/nginx/default.conf.tpl
 
 ENV NGINX_PORT=8000
-ENV APP_HOST=app
+ENV APP_HOST=localhost
 ENV APP_PORT=9000
 
 RUN touch /etc/nginx/conf.d/default.conf
