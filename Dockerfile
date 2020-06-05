@@ -6,7 +6,7 @@ COPY ./default.conf.tpl /etc/nginx/default.conf.tpl
 ENV NGINX_PORT=8000
 ENV APP_HOST=localhost
 ENV APP_PORT=9000
-
+# Change
 RUN touch /etc/nginx/conf.d/default.conf
 
 COPY ./entrypoint.sh /entrypoint.sh
