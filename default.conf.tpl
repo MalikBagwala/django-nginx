@@ -6,7 +6,7 @@ upstream gunicorn {
 # now we declare our main server
 server {
     listen ${NGINX_PORT};
-    server_name royalcrockery.com .royalcrockery.com;
+    server_name ${SERVER_NAME};
 
     location /static/ {
         alias /usr/src/app/static/;
