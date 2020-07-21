@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx
 LABEL maintiner="m.bagwala@outlook.com"
 
 COPY ./default.conf.tpl /etc/nginx/default.conf.tpl
