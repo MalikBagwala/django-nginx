@@ -9,7 +9,7 @@ server {
     server_name ${SERVER_NAME};
 
     location /static/ {
-        alias /usr/src/app/static/;
+        alias /code/static/;
     }
 
     location / {
